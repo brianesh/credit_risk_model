@@ -1,0 +1,30 @@
+# Ignore virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore model files (large binary files)
+model.pkl
+*.joblib
+*.h5
+
+# Ignore dataset files (if not public)
+data/
+*.csv
+*.xlsx
+
+# Ignore environment configuration
+.env
+config.json
+
+logs/
+*.log
+*.db
+*.sqlite3
+
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+backend/node_modules/
